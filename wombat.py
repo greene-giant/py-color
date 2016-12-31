@@ -2,6 +2,7 @@
 white = "#f6f3e8"
 black = "#242424"
 gray = "#99968b"
+grayDark = "#3f3c38"
 
 green = "#cae682"
 orange = "#ff9b59"
