@@ -67,6 +67,13 @@ if platform.system() == 'Windows':
         return csbi.wAttributes
 
 
+    def printColor(color, *arg, **kwargs):
+        reset = get_color()
+        set_color(color)
+        print(*arg, **kwargs)
+        set_color(reset)
+
+
 
     if __name__ == "__main__":
         reset = get_color()
